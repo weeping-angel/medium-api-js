@@ -1,0 +1,15 @@
+{
+  "name": "mediumapi",
+  "version": "1.0.0",
+  "description": "Wrapper for Medium API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "medium",
+    "api"
+  ],
+  "author": "Nishu Jain",
+  "license": "ISC"
+}
