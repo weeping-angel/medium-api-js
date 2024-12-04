@@ -1,6 +1,6 @@
 {
   "name": "medium-api-js",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Javascript wrapper for Medium API (Unofficial)",
   "main": "index.js",
   "scripts": {

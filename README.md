@@ -15,18 +15,20 @@ npm i medium-api-js
 ## Usage
 
 ```js
-const MediumClass = require('Medium');
+import Medium from 'medium-api-js';
 require('dotenv').config();
 
-const medium = new MediumClass(process.env.API_KEY);
+const medium = new Medium(process.env.API_KEY);
 
 const userId = '6e2475a6e38a'; 
 
 medium.getUserArticles(userId)
     .then(data => {
-        console.log('User Articles:', data.associated_articles);
+        console.log('User Articles:', data);
     })
 ```
+
+> Note: You'll need to create a ".env" file and put your API_KEY into it.
 
 ## How to Subscribe to Medium API and Get your API Key
 
