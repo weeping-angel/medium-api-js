@@ -28,7 +28,7 @@ medium.getUserArticles(userId)
     })
 ```
 
-> Note: You'll need to create a ".env" file and put your API_KEY into it.
+> Note: You'll need to create a ".env" file and put your RAPIDAPI_KEY into it. Alternatively, you can set in your environment variables.
 
 ## How to Subscribe to Medium API and Get your API Key
 
