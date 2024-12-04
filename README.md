@@ -18,7 +18,7 @@ npm i medium-api-js
 import Medium from 'medium-api-js';
 require('dotenv').config();
 
-const medium = new Medium(process.env.API_KEY);
+const medium = new Medium(process.env.RAPIDAPI_KEY);
 
 const userId = '6e2475a6e38a'; 
 
