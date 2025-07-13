@@ -12,6 +12,7 @@ class Medium {
         this.#baseUrl = 'https://medium2.p.rapidapi.com/';
         this.#headers = {
             'x-rapidapi-key': this.#apiKey,
+            'user-agent': 'medium-api-js-sdk',
         };
     }
 
@@ -361,9 +362,9 @@ class Medium {
     * @param {string} tag - The tag for which to fetch recommended lists.
     * @returns {Promise<object>} - The recommended lists.
     */
-    async getRecommendedLists(tag) {
-        return this.#makeRequest( `recommended_lists/${tag}`);
-    }
+    // async getRecommendedLists(tag) {
+    //     return this.#makeRequest( `recommended_lists/${tag}`);
+    // }
 
     // List-related Methods ==============================
 
